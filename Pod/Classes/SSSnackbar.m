@@ -62,7 +62,7 @@ static SSSnackbar *currentlyVisibleSnackbar = nil;
         
         _actionButton = [UIButton buttonWithType:UIButtonTypeSystem];
         _actionButton.translatesAutoresizingMaskIntoConstraints = NO;
-        _actionButton.titleLabel.font = [UIFont systemFontOfSize:14.0 weight:UIFontWeightBold];
+        _actionButton.titleLabel.font = [UIFont boldSystemFontOfSize:14.0];
         [_actionButton setTitle:actionText forState:UIControlStateNormal];
         [_actionButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_actionButton sizeToFit];
